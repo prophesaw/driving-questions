@@ -1,0 +1,59 @@
+.container {
+
+    height: 30%;
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 200px;
+    padding-left:20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    
+    
+
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+   
+    /* Used to position the arrow */
+    position: relative;
+}
+
+.container__arrow {
+    /* Size */
+    height: 16px;
+    width: 16px;
+
+    background-color: #fff;
+    position: absolute;
+}
+
+.container__arrow--tl {
+    /* Position at the top left corner */
+    left: 32px;
+    top: 0px;
+
+    /* Border */
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    transform: translate(50%, -50%) rotate(45deg);
+}
+
+ul{
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    align-self: center;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    
+    
+}
+p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
